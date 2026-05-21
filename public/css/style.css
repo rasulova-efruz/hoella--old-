@@ -1,0 +1,85 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font: weight 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+}
+
+.roboto-normal {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font: weight 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font: weight 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+
+header .logo {
+    width: 193px;
+    height: 90px;
+    object-fit: contain;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.giris-qeydiyyat .login {
+    background-color: #fff;
+    border: 1px solid #e5e7eb;
+    width: 88px;
+    height: 39px;
+    border-radius: 8px;
+}
+
+.giris-qeydiyyat .qeydiyyat {
+    background-color: #ff6200;
+    border: 1px solid #ff6200;
+    width: 96px;
+    height: 39px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+header{
+display: flex;
+justify-content: space-around;
+
+}
+
+.naviqasiya a {
+
+    margin-right: 40px;
+}
+
+.giris-qeydiyyat {
+display: flex;
+align-items: center;
+}
+
+.giris-qeydiyyat .sebet {
+
+    margin-left: 32px;
+
+}
+
+.giris-qeydiyyat .qeydiyyat {
+
+    margin-left: 16px;
+}
